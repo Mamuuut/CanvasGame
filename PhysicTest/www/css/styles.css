@@ -1,0 +1,58 @@
+#physic_test_container {
+  margin: auto;
+  width: 800px;
+  height: 600px;
+  background-color: white;
+  border: solid #666666 4px;
+  border-radius: 8px;
+  position: relative;
+  font-size: 16px;
+  font-family: Arial;
+  font-weight: bold;
+  color: black; }
+  #physic_test_container #canvas_container {
+    width: 100%;
+    height: 100%; }
+  #physic_test_container #radio_container, #physic_test_container #button_container, #physic_test_container #event_count_container {
+    position: absolute; }
+  #physic_test_container #radio_container {
+    left: 20px;
+    bottom: 20px; }
+    #physic_test_container #radio_container input[type=radio] {
+      float: left; }
+  #physic_test_container #button_container {
+    right: 20px;
+    bottom: 20px; }
+    #physic_test_container #button_container .button-icon {
+      background: url("../img/button_icons.png") orange;
+      cursor: pointer;
+      border: 4px solid;
+      border-radius: 8px;
+      height: 40px;
+      width: 40px;
+      margin: 4px;
+      float: right; }
+      #physic_test_container #button_container .button-icon:hover {
+        background-color: #ef2929; }
+      #physic_test_container #button_container .button-icon#play:hover {
+        background-position: 0 -40px; }
+      #physic_test_container #button_container .button-icon#pause {
+        background-position: -40px 0; }
+        #physic_test_container #button_container .button-icon#pause:hover {
+          background-position: -40px -40px; }
+      #physic_test_container #button_container .button-icon#next {
+        background-position: -80px 0; }
+        #physic_test_container #button_container .button-icon#next:hover {
+          background-position: -80px -40px; }
+      #physic_test_container #button_container .button-icon#reset {
+        background-position: -120px 0; }
+        #physic_test_container #button_container .button-icon#reset:hover {
+          background-position: -120px -40px; }
+  #physic_test_container #event_count_container {
+    top: 20px;
+    right: 20px; }
+    #physic_test_container #event_count_container p {
+      margin: 4px;
+      text-align: right; }
+      #physic_test_container #event_count_container p span {
+        color: red; }

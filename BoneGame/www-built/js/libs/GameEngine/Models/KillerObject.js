@@ -1,0 +1,1 @@
+define(["GameEngine/Models/LevelPhysicObject","GameEngine/Actions/KillAction"],function(e,t){function n(n,r,i,s){e.call(this,n,r,i,s),this.predatorBits=1,this.addAction(new t)}return extend(n,e),n})

@@ -1,0 +1,1 @@
+define([],function(){var e=function(e,t){var n=e,r=t;this.updateView=function(){n.x=r.position.x,n.y=r.position.y,n.width=r.size.x,n.height=r.size.y,n.draw()}};return e})

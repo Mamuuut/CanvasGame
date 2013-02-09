@@ -1,0 +1,1 @@
+define(["GameEngine/Helpers/ImageLoader","GameEngine/Views/Sprite"],function(e,t){function n(n,r){n.img=e.getImage(n.src);var i=n.img.width/n.width;t.call(this,n.img,r);var s=Math.floor(Math.random()*i);this.setSpriteIdx(s)}return extend(n,t),n})

@@ -1,0 +1,1 @@
+define({COLLIDE:"collide",INTERSECT:"intersect"})

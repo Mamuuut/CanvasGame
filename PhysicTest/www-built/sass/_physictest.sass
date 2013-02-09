@@ -1,0 +1,74 @@
+$margin: 20px
+$button-size: 40px
+
+#physic_test_container
+  margin: auto
+  width: 800px
+  height: 600px
+  background-color: #FFFFFF
+  border: solid #666666 4px
+  border-radius: 8px
+  position: relative
+  font:
+    size: 16px
+    family: Arial
+    weight: bold
+  color: black
+
+  #canvas_container
+    width: 100%
+    height: 100%
+
+  #radio_container, #button_container, #event_count_container
+    position: absolute
+
+  #radio_container
+    left: $margin
+    bottom: $margin
+    input[type=radio]
+      float: left
+
+  #button_container
+    right: $margin
+    bottom: $margin
+    
+    .button-icon
+      background: url( "../img/button_icons.png" ) orange
+      cursor: pointer
+      border: 4px solid
+      border-radius: 8px
+      height: $button-size
+      width: $button-size
+      margin: 4px
+      float: right
+
+      &:hover
+        background-color: #ef2929
+
+      &#play:hover
+        background-position: 0 (-1 * $button-size)
+
+      &#pause
+        background-position: (-1 * $button-size) 0
+        &:hover
+          background-position: (-1 * $button-size) (-1 * $button-size)
+
+      &#next
+        background-position: (-2 * $button-size) 0
+        &:hover
+          background-position: (-2 * $button-size) (-1 * $button-size)
+
+      &#reset
+        background-position: (-3 * $button-size) 0
+        &:hover
+          background-position: (-3 * $button-size) (-1 * $button-size)
+    
+  #event_count_container
+    top: $margin
+    right: $margin
+    p
+      margin: 4px
+      text-align: right
+      span
+        color: #f00
+

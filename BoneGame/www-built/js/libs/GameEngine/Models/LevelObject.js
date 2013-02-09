@@ -1,0 +1,1 @@
+define(["PhysicEngine/Models/Rect","GameEngine/Models/LevelObjectMixin"],function(e,t){function n(t,n,r,i){e.call(this,t,n,r,i)}return extend(n,e),augment(n,t),n})

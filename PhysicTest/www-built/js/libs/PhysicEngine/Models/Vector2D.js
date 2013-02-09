@@ -1,0 +1,1 @@
+define([],function(){var e=function(e,t){this.x=e||0,this.y=t||0};return e.prototype.fromString=function(e){if(null!=string){var t=string.split(";");2==t.length&&(x=parseFloat(t[0]),y=parseFloat(t[1]))}},e.X_AXIS="x",e.Y_AXIS="y",e})

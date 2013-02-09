@@ -1,0 +1,1 @@
+define([],function(){return AxisContacts=function(){this.axis_min=new Array,this.axis_max=new Array},AxisContacts.prototype.addContact=function(e,t){this[t].push(e)},AxisContacts})

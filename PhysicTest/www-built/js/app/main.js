@@ -1,0 +1,1 @@
+require(["app/TestManager"],function(e){new e($("#physic_test_container"))})

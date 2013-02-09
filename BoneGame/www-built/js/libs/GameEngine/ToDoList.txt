@@ -1,0 +1,5 @@
+- Player death
+- Graphics
+- States (LevelEnd )
+- Game Pause Interface
+

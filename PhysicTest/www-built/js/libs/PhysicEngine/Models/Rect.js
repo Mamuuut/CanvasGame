@@ -1,0 +1,1 @@
+define(["PhysicEngine/Models/Vector2D"],function(e){var t=function(t,n,r,i){this.size=new e(r,i),this.position=new e(t,n)};return t.prototype.getLeftTop=function(e){return this.position[e]},t.prototype.getRightBottom=function(e){return this.position[e]+this.size[e]},t.AXIS_MIN="axis_min",t.AXIS_MAX="axis_max",t})

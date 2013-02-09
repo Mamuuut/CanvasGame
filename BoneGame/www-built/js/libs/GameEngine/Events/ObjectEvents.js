@@ -1,0 +1,1 @@
+define({DYING:"dying",GAME_OVER:"gameOver"})

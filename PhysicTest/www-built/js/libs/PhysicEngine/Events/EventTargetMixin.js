@@ -1,0 +1,1 @@
+define(["PhysicEngine/Events/EventManager"],function(e){function t(){}return t.prototype={dispatchEvent:function(t,n){e.dispatchEvent(this,t,n)},addEventListener:function(t,n){e.addEventListener(this,t,n)},removeEventListener:function(t,n){e.removeEventListener(this,t,n)}},t})
